@@ -4,7 +4,8 @@
 #include <vector>
 
 using std::vector;
+typedef std::pair<int, int> edge;
 
 namespace prime {
-std::vector<std::pair<int, int>> minSpanningTree(const vector<vector<int>>& W);
+vector<edge> minSpanningTree(const vector<vector<int>>& W);
 }

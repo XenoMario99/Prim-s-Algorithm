@@ -1,7 +1,7 @@
 #include "prime.h"
 
-vector<std::pair<int, int>> prime::minSpanningTree(const vector<vector<int>>& W) {
-    vector<std::pair<int, int>> F;
+vector<edge> prime::minSpanningTree(const vector<vector<int>>& W) {
+    vector<edge> F;
     const unsigned long verticesAmount{W.size()};
 
     vector<int> nearest(verticesAmount - 1, 0);
