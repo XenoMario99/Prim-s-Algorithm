@@ -1,9 +1,10 @@
 #pragma once
 
+#include <limits>
 #include <vector>
 
 using std::vector;
 
 namespace prime {
-void minSpanningTree(const vector<vector<int>>& W);
+std::vector<std::pair<int, int>> minSpanningTree(const vector<vector<int>>& W);
 }
